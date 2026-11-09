@@ -1,0 +1,725 @@
+{
+  "date": "2026-11-09",
+  "files": [
+    {
+      "path": "validate_dragon_update.py",
+      "sha256": "baae47cd9fd63e1261a410a41ef66910a500b0f8bc0febac44587f7bc3409a76",
+      "bytes": 2675
+    },
+    {
+      "path": "server.py",
+      "sha256": "01fc1bf7d0cfda284aadcf88bd56e050c57f6e415a377949d3508d7822383a66",
+      "bytes": 22891
+    },
+    {
+      "path": "studio_handoff.py",
+      "sha256": "8b839313c0ed05786fb5fdaed68f5520dd921fa1b914e13d66463d4e593ca150",
+      "bytes": 4889
+    },
+    {
+      "path": "workshop.py",
+      "sha256": "9f9b1c28274696bab837b4e10057fb5df3b7ec9ae1f7fd3fe4da57cb175e3b12",
+      "bytes": 3839
+    },
+    {
+      "path": "printer_transport.py",
+      "sha256": "b86298943a209f427fbbe7301432df2eea5d69d520de68adb4c2983e7d9bb105",
+      "bytes": 10185
+    },
+    {
+      "path": "diagnose_dragon_six.py",
+      "sha256": "33bfa2a93a99cf63426054bf31ed25463c04e1964a242667fdb24778e8215e5a",
+      "bytes": 1316
+    },
+    {
+      "path": "generate_thumbnails.py",
+      "sha256": "ea51e3d54828a0fd3ef2e2946ba3392bb2c9008f1a3f24ddc359ffed023da165",
+      "bytes": 14133
+    },
+    {
+      "path": "diagnose_dragon_simplify.py",
+      "sha256": "ec6a3ad019e765e7fe05aa95bd4e688115698c559bab3d4eb1725a8e0d4d58fc",
+      "bytes": 862
+    },
+    {
+      "path": "part_previews.py",
+      "sha256": "e170d7c4af23dfb486ca24456ad43eeb4c994d3a9d6a31439e5216efdf161782",
+      "bytes": 3362
+    },
+    {
+      "path": "launch.py",
+      "sha256": "2a96f1be242ff583099e23361ae76e10a96148bc9fca7eadd2f73ed5edefa68f",
+      "bytes": 1706
+    },
+    {
+      "path": "build_example_prints_20261107.py",
+      "sha256": "9433bf10cb032364708e877b743a876d5e9d7f76ac55b1e137f8576b653b560c",
+      "bytes": 13866
+    },
+    {
+      "path": "diagnose_dragon_cross.py",
+      "sha256": "ac731e9664932cfb1593b06ed35ab780b0a7d0449caaba085942b7c9e4c3c687",
+      "bytes": 981
+    },
+    {
+      "path": "geometry.py",
+      "sha256": "0e65e25b50e829478b1906e18171aeb8457916cbaf1302b54e9fd829840bd673",
+      "bytes": 27508
+    },
+    {
+      "path": "validate_fangs_20261107.py",
+      "sha256": "de0d0ffaad3443b40a917d07c992d809a7a1bfc4bf524f1b756d2444c0f7615b",
+      "bytes": 3067
+    },
+    {
+      "path": "refresh_part_thumbnails.py",
+      "sha256": "6b87dc8801a38327969b817bcb88e3acab87ae862ab012b19cc2f722cd964812",
+      "bytes": 4140
+    },
+    {
+      "path": "vendor_setup.py",
+      "sha256": "8e684fa10ff025d58ba9eddb22c3fd04637e5599edc439b41c612521aaa488a2",
+      "bytes": 1030
+    },
+    {
+      "path": "slicer.py",
+      "sha256": "969d8fa83b6cb856d046d35ccbaec2044e4e44f5376dabe4cff92d972ddea6fa",
+      "bytes": 5793
+    },
+    {
+      "path": "package_mac.py",
+      "sha256": "6ebdd6fe7621e3225582790b635eb90bc3f3b18801c7e21e85fef10c3dd1fb36",
+      "bytes": 1405
+    },
+    {
+      "path": "geometry_catalog.json",
+      "sha256": "2dc259cd50a77f31926ad179fc5adb7c521e1e3d71991a97e611a4e5adc31775",
+      "bytes": 8826
+    },
+    {
+      "path": "slicer_seed.json",
+      "sha256": "086b3734884d0615a202c57eda9f4007979e84aadb4ed528956b250dd8fd5751",
+      "bytes": 47279
+    },
+    {
+      "path": "frontend/studio-queue.html",
+      "sha256": "d0cd35f333594987435497aa9cff4f9a4632d4c5675a411cce8c93f752cd8f95",
+      "bytes": 2488
+    },
+    {
+      "path": "frontend/workshop-app.js",
+      "sha256": "818c189b7290ba7092a099aed545673611981d8d03c5b9f2b0e355af5c84f01f",
+      "bytes": 17934
+    },
+    {
+      "path": "frontend/workshop.css",
+      "sha256": "9bbd0cd368949dabbe7cce9d83313077acd88b042a86ab1d36d6dfab4121a7a1",
+      "bytes": 20267
+    },
+    {
+      "path": "frontend/index.html",
+      "sha256": "5d863a204d0404d92de23cafee6de84568726a549cbf21bbfe320ebda4d96948",
+      "bytes": 7952
+    },
+    {
+      "path": "frontend/icon.svg",
+      "sha256": "d15afc91e4ac30456ed20d24b3781f839eb312508640b1e0a672635c8cc75ce4",
+      "bytes": 488
+    },
+    {
+      "path": "frontend/viewer.js",
+      "sha256": "dcd7e080781de7156844baaff1f0d4d56d927b1b2e529279e57d9a6a73bbb4fd",
+      "bytes": 4364
+    },
+    {
+      "path": "frontend/studio-queue.css",
+      "sha256": "27450792a2e4c990e49a6df83c99df7fa19a0ea158b6e3ab8e7943147a64d302",
+      "bytes": 4209
+    },
+    {
+      "path": "frontend/style.css",
+      "sha256": "d821515f5a4122f086c0c6acb3b71b2fe82f181f83aa30ed9243a251ef20ce55",
+      "bytes": 16154
+    },
+    {
+      "path": "frontend/thumbnails_manifest.json",
+      "sha256": "d4b5b2af69b21d3d592eb993c933af444f90d7eff6845b74a4a1b7a6ff31cb85",
+      "bytes": 72604
+    },
+    {
+      "path": "frontend/manifest.webmanifest",
+      "sha256": "9775501dabea2e4d823859bf3d37ee91a36b52ba21f12dd8f156e7fe560b7172",
+      "bytes": 248
+    },
+    {
+      "path": "frontend/app.js",
+      "sha256": "f5888bec4b809656f1650f92a1b8e41468f17eecebb528aa4a9f9601e7035307",
+      "bytes": 18711
+    },
+    {
+      "path": "frontend/studio-queue.js",
+      "sha256": "8acaf50c344cea2812a0e699c81b128445f44109bae0cac00c3ce52303971f3b",
+      "bytes": 7859
+    },
+    {
+      "path": "frontend/workshop.html",
+      "sha256": "6aefdea596db2eb4fee260717e79dde23ebb224aa5f057eeef318dccaf3c9eb6",
+      "bytes": 8277
+    },
+    {
+      "path": "frontend/thumbnails/expression_fangs.png",
+      "sha256": "1678f36ebc3f209006204590b385fd9875a52d3350a561d9a8e56ce8bc9ca087",
+      "bytes": 44147
+    },
+    {
+      "path": "frontend/thumbnails/expression_smile.png",
+      "sha256": "7c0da17f57092c139a4396fb516b5849e66a240b4c1cb5f71c7e3eb1aea98577",
+      "bytes": 39212
+    },
+    {
+      "path": "frontend/thumbnails/back_shell.png",
+      "sha256": "ec036b0afc288fae6fdf7ea4955479a10e71970cd50abcfebf902009a472a169",
+      "bytes": 59458
+    },
+    {
+      "path": "frontend/thumbnails/tail_none.png",
+      "sha256": "e643d943f93fc09dae9b14daec2ad702dac8633729bced52ed91c9e7c12e1476",
+      "bytes": 7504
+    },
+    {
+      "path": "frontend/thumbnails/tail_fork.png",
+      "sha256": "36943135cfda04c412b20a665e66f865f88f106bfc9b88e1374c761f8aac2cc9",
+      "bytes": 21822
+    },
+    {
+      "path": "frontend/thumbnails/expression_surprise.png",
+      "sha256": "932eb222bfe6ab1c88168ac528ae444218b505753bfc3c483098eda1e1b53ed0",
+      "bytes": 39531
+    },
+    {
+      "path": "frontend/thumbnails/tail_long.png",
+      "sha256": "d3e1731c62bd73dfaaf451ac102f8fce2dab7fa7a8508e6fb4e90f2e549a2e7f",
+      "bytes": 21935
+    },
+    {
+      "path": "frontend/thumbnails/body_axolotl.png",
+      "sha256": "3e9578b02045898c0a5c18a4a47b15d8359c186d49ab68fd1d02d8b6b03d8ec6",
+      "bytes": 55622
+    },
+    {
+      "path": "frontend/thumbnails/tail_club.png",
+      "sha256": "5469cc6eba420ba70e02eef4ac4223763ba881a0b7aeab6473db4a81099728f5",
+      "bytes": 22653
+    },
+    {
+      "path": "frontend/thumbnails/texture_stripes.png",
+      "sha256": "b6b9f5ca8d306f5762eb4408179a521637f79136f54f8e007aec9605d0b4c196",
+      "bytes": 58115
+    },
+    {
+      "path": "frontend/thumbnails/eyes_three.png",
+      "sha256": "22ef783c4df3bac93160b44c59b3e2022ba6a4ffe47b459c92fff5ebe70d5fb6",
+      "bytes": 29421
+    },
+    {
+      "path": "frontend/thumbnails/head_ears.png",
+      "sha256": "1c1044fdf4c974d58981e2e88d22cfe1de33b6cafe69ce6c7b710121efa4d5aa",
+      "bytes": 33837
+    },
+    {
+      "path": "frontend/thumbnails/preset_axolotl.png",
+      "sha256": "3e9578b02045898c0a5c18a4a47b15d8359c186d49ab68fd1d02d8b6b03d8ec6",
+      "bytes": 55622
+    },
+    {
+      "path": "frontend/thumbnails/limbs_paws.png",
+      "sha256": "fb0fb33731338a3778e717fce1125f61f6e3e25a31e1c0a64f78e650c071fbda",
+      "bytes": 19819
+    },
+    {
+      "path": "frontend/thumbnails/head_round.png",
+      "sha256": "b017a93dbd627126070283e517853daa418a5cd573896e46792c206e295ebb93",
+      "bytes": 33346
+    },
+    {
+      "path": "frontend/thumbnails/head_flat.png",
+      "sha256": "8133c93b458d4cc86def31fc87c71e16e427f8adfa64d95ee414daa45421e84f",
+      "bytes": 34952
+    },
+    {
+      "path": "frontend/thumbnails/limbs_eight.png",
+      "sha256": "27f89ea1cfef69f1b2d6d80626f5e2f65520e0b66554e4674102ddce9d04f632",
+      "bytes": 30957
+    },
+    {
+      "path": "frontend/thumbnails/head_wide.png",
+      "sha256": "a6af55210725d101bbf63aa0b494af302bc0ecf7b7980fccd25af1d2522ff7eb",
+      "bytes": 33921
+    },
+    {
+      "path": "frontend/thumbnails/limbs_tentacles.png",
+      "sha256": "0fcf152b4ebfe58c6dc5c038ac691179c7fcfdf7f6926da9bc24b3f857a535ae",
+      "bytes": 46560
+    },
+    {
+      "path": "frontend/thumbnails/back_plates.png",
+      "sha256": "a37a147aef9497bf834c030b6078bd9a176d191a72bcc2bef1440d5f998d5a27",
+      "bytes": 58505
+    },
+    {
+      "path": "frontend/thumbnails/eyes_one.png",
+      "sha256": "00414cd56e60391640dacdbe8f12861070b075f24571ee96ba7b3bfbffc38051",
+      "bytes": 26179
+    },
+    {
+      "path": "frontend/thumbnails/preset_turtle.png",
+      "sha256": "b4111c9c569aa9c91517f2d698ddd77ee81f7c3ede4f06fc5a1f93a27d01235b",
+      "bytes": 58300
+    },
+    {
+      "path": "frontend/thumbnails/head_long.png",
+      "sha256": "79a2324cb75da474b83365c00e1b98d6cd920e23c44d4d6c4d87e9740e34177f",
+      "bytes": 30431
+    },
+    {
+      "path": "frontend/thumbnails/head_horns.png",
+      "sha256": "6f7510794e8f287adbc4d8afb9b24263fe3ea3144520db9dfca7dae7f6f0e029",
+      "bytes": 31577
+    },
+    {
+      "path": "frontend/thumbnails/back_bumps.png",
+      "sha256": "b7dc886787654cbfaee6e888baa234bdab765c06724c68fb586c2798cadf47fe",
+      "bytes": 58313
+    },
+    {
+      "path": "frontend/thumbnails/body_dragon.png",
+      "sha256": "e45f6884cdfba85879deacd1fc4c3b1413cf6e9385012e3dd0e45f14ee58bd1d",
+      "bytes": 69317
+    },
+    {
+      "path": "frontend/thumbnails/body_armored.png",
+      "sha256": "40ac58fe844e5972a2f879bed6108b790130457539cb66d442f0c05c9d940cd1",
+      "bytes": 58075
+    },
+    {
+      "path": "frontend/thumbnails/preset_octopus.png",
+      "sha256": "14c6124755aa1f6d40437139acb7166ad2f749398f971f66508a2b3554889de9",
+      "bytes": 63503
+    },
+    {
+      "path": "frontend/thumbnails/expression_flat.png",
+      "sha256": "5c07a2945f9a69dcf18ff018846027e36d45233a83589012dbf6dfc1542d3357",
+      "bytes": 39109
+    },
+    {
+      "path": "frontend/thumbnails/limbs_flippers.png",
+      "sha256": "403cd81d1ae2086024855c7ab1a02a83c204aa52d5aeeec7d3a7e1c205ccea27",
+      "bytes": 22869
+    },
+    {
+      "path": "frontend/thumbnails/tail_fan.png",
+      "sha256": "74d20027e46d11656f78fced958c1ee18842bf68c3389faf55cbf9a3976f6fff",
+      "bytes": 24111
+    },
+    {
+      "path": "frontend/thumbnails/tail_curl.png",
+      "sha256": "2a7938b8baf176fb56a19f311e17f0fae88e5508104e34b09239a0695a91032f",
+      "bytes": 27128
+    },
+    {
+      "path": "frontend/thumbnails/back_smooth.png",
+      "sha256": "e400a3117937f861307c0a67e569a0c431db719a2396dbce1265510a22a6f4e6",
+      "bytes": 57669
+    },
+    {
+      "path": "frontend/thumbnails/texture_dots.png",
+      "sha256": "3358f27e3cc0d150ce3b626003febb2f4c9da0af913da5104942650ae4662f77",
+      "bytes": 58460
+    },
+    {
+      "path": "frontend/thumbnails/body_slug.png",
+      "sha256": "ac5832264fc672e351a527e1c9eb419a61905a0a4b53f86a6cc00e19f658a5ea",
+      "bytes": 56564
+    },
+    {
+      "path": "frontend/thumbnails/texture_plain.png",
+      "sha256": "4267c928a7caac602ee3ee259fdd20cf3858ebc4af1145be3875ee1bce546619",
+      "bytes": 57260
+    },
+    {
+      "path": "frontend/thumbnails/eyes_two.png",
+      "sha256": "7329ececb656436d34cb380dad1bd1e9cc1b42efb5eb63bfb4823f219df9f3a9",
+      "bytes": 32501
+    },
+    {
+      "path": "frontend/thumbnails/preset_dragon.png",
+      "sha256": "e45f6884cdfba85879deacd1fc4c3b1413cf6e9385012e3dd0e45f14ee58bd1d",
+      "bytes": 69317
+    },
+    {
+      "path": "frontend/thumbnails/body_turtle.png",
+      "sha256": "b4111c9c569aa9c91517f2d698ddd77ee81f7c3ede4f06fc5a1f93a27d01235b",
+      "bytes": 58300
+    },
+    {
+      "path": "frontend/thumbnails/texture_scales.png",
+      "sha256": "de8bc1f3223e4469bb10fbd9646f870ed26c97b330f80de71f88d2b1c9405d60",
+      "bytes": 59483
+    },
+    {
+      "path": "frontend/thumbnails/back_gills.png",
+      "sha256": "4c08fc9a75a192e651a54ce8af0af8da57bd71a31ba2b78bb58264e6e6bd6e37",
+      "bytes": 57720
+    },
+    {
+      "path": "frontend/thumbnails/preset_armored.png",
+      "sha256": "40ac58fe844e5972a2f879bed6108b790130457539cb66d442f0c05c9d940cd1",
+      "bytes": 58075
+    },
+    {
+      "path": "frontend/thumbnails/limbs_none.png",
+      "sha256": "e643d943f93fc09dae9b14daec2ad702dac8633729bced52ed91c9e7c12e1476",
+      "bytes": 7504
+    },
+    {
+      "path": "frontend/thumbnails/texture_ridges.png",
+      "sha256": "2d3d14899da6d5a3045acd8fe442caf2132313e2d417200c381d04a1a626760d",
+      "bytes": 57927
+    },
+    {
+      "path": "frontend/thumbnails/body_octopus.png",
+      "sha256": "14c6124755aa1f6d40437139acb7166ad2f749398f971f66508a2b3554889de9",
+      "bytes": 63503
+    },
+    {
+      "path": "frontend/thumbnails/preset_slug.png",
+      "sha256": "ac5832264fc672e351a527e1c9eb419a61905a0a4b53f86a6cc00e19f658a5ea",
+      "bytes": 56564
+    },
+    {
+      "path": "frontend/thumbnails/back_spines.png",
+      "sha256": "8035236dec30a4dd8d002cffdd54ad5e74056793e1446bae0d43d77afd3d8b32",
+      "bytes": 58222
+    },
+    {
+      "path": "frontend/thumbnails/limbs_six.png",
+      "sha256": "5c2b7f0cd53fe5e2aed26ada75f358d4d16a742e93053b903411f80c749fbf74",
+      "bytes": 24558
+    },
+    {
+      "path": "frontend/vendor/three-0.180.0/provenance.json",
+      "sha256": "42d8ff44bea37f70c64b714acfc5eef803283fe0678fe81aa819e1f95fd08ddf",
+      "bytes": 361
+    },
+    {
+      "path": "frontend/vendor/three-0.180.0/LICENSE",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "bytes": 1081
+    },
+    {
+      "path": "frontend/vendor/three-0.180.0/build/three.module.js",
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a",
+      "bytes": 603113
+    },
+    {
+      "path": "frontend/vendor/three-0.180.0/build/three.core.js",
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "bytes": 1403455
+    },
+    {
+      "path": "frontend/vendor/three-0.180.0/examples/jsm/controls/OrbitControls.js",
+      "sha256": "b97879c748170baadeb3fb84cea1ffdf4674e283dc06042f34e2acb95a76042c",
+      "bytes": 38703
+    },
+    {
+      "path": "frontend/vendor/three-0.180.0/examples/jsm/loaders/STLLoader.js",
+      "sha256": "023ed97f848b633d8bcd53d4db3b996d29d0c644088700691297c552257d480b",
+      "bytes": 10715
+    },
+    {
+      "path": "geometry_support/face_placement.py",
+      "sha256": "5d43d62ebef1058f791d7ff5b7a6d480fee872fe7c9d951ec94d3ca55448b632",
+      "bytes": 7305
+    },
+    {
+      "path": "geometry_support/mesh_cleanup.py",
+      "sha256": "8c7aba4e668a2148665d6214dd20ff5f7aedbaccb8a20406c53065ae3f826a00",
+      "bytes": 844
+    },
+    {
+      "path": "tests/test_workshop.py",
+      "sha256": "e99e4077422bd406cf57d6345f9647a5b3052815739fefd7d340b9ce48ad4160",
+      "bytes": 2134
+    },
+    {
+      "path": "tests/integration_studio.py",
+      "sha256": "d98fd9efb8b5e3d41a0b81fa9d77803e9c032b53e5343ca4c60d59a8dda793f4",
+      "bytes": 3153
+    },
+    {
+      "path": "tests/integration_workshop.py",
+      "sha256": "a74b2fb0c614329a78521fe69728f3b26820316d36f47a56790875dd44c37d0c",
+      "bytes": 3127
+    },
+    {
+      "path": "tests/integration.py",
+      "sha256": "c8a90acce1d5eb21e9a5e20cb4bbe4aeac680fdf78f939d16cec3f46606f6090",
+      "bytes": 3181
+    },
+    {
+      "path": "tests/test_transport.py",
+      "sha256": "196af09d9e41ece8a3af9b08a535131c07f5ecf09fc1536c11cc7df09449c81e",
+      "bytes": 5218
+    },
+    {
+      "path": "tests/test_live_monitor.py",
+      "sha256": "484ef0649ef076d20f2ea5dba0f8f500515b4af3359ec2e284a2183ccbcbb8a8",
+      "bytes": 2876
+    },
+    {
+      "path": "tests/test_geometry.py",
+      "sha256": "2a649be3a72a2d74ad6dac17fdba32dfefe84c0e294c09f6087f381e8b188a6c",
+      "bytes": 2291
+    },
+    {
+      "path": "tests/test_studio_handoff.py",
+      "sha256": "d9ece5aee92b10474b873b273a74b2b8a32abe9594ffea01263a9eaddc93cadc",
+      "bytes": 3143
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/catalog.html",
+      "sha256": "9f74a34e95356abc6a6f48590958c119abdbbf838e75d00f6ebc86ef06b1c80c",
+      "bytes": 2247
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/examples_overview.png",
+      "sha256": "e37fb0d5cdff433d5d67ad4b3989e3f45a094792ff2de76610f42cd8b034af1f",
+      "bytes": 626127
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/README_印刷手順.md",
+      "sha256": "1549178eec6b92cd575dbb6ef2278ec2f2a4bfdca2f59c96f4281f36e2cb3c5d",
+      "bytes": 2645
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/manifest.json",
+      "sha256": "519ae409413c2ae674e8324faaee98f6d9397dfdb851a397c40142d1052865d0",
+      "bytes": 15712
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/stl/01_dragon_modoki.stl",
+      "sha256": "4591655fd2f2e26b9e77107bb6be2aa678118858be81a90ae366296f6ba3133d",
+      "bytes": 1785884
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/stl/02_armored_modoki.stl",
+      "sha256": "a91efbb88d42de3aa286f4104f84404556d6ef50a29a665f80956aa9eac4d4fe",
+      "bytes": 1091784
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/stl/04_slug_modoki.stl",
+      "sha256": "466298d4c6ee42bdfc3533720ed30e5bd18126ba3487069cf2443deef8971a78",
+      "bytes": 1641584
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/stl/00_all_six.stl",
+      "sha256": "a886242ab110a7ee5c0b3bdfe136d594752de65a71e68dc7199db2208b75e949",
+      "bytes": 8826284
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/stl/06_axolotl_modoki.stl",
+      "sha256": "8ff949e9aa9e960aac0451505740bae5f9aa3ed402067be7526013930cfe0c84",
+      "bytes": 1481184
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/stl/05_turtle_modoki.stl",
+      "sha256": "bd144e956165756d2176cd377c2e52baa8d519fbb131560694e007c988056eda",
+      "bytes": 1044084
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/stl/03_octopus_modoki.stl",
+      "sha256": "16fad90e569be4170828ec92f42cde60acee85cb05e0e69d7c9b33725c465830",
+      "bytes": 1783884
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/print/05_turtle_modoki.gcode.3mf",
+      "sha256": "1c5d72d74754c85f00092fb5b91f0fd3463b3d4f6b0ec1fc29591194f5fe046e",
+      "bytes": 406325
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/print/04_slug_modoki.gcode.3mf",
+      "sha256": "aeb0f256b45da7f2bd1e9e2f5087b8bb641c7299b1aac919c6d1f5707e83063e",
+      "bytes": 581679
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/print/06_axolotl_modoki.gcode.3mf",
+      "sha256": "ec2ebfcbbea7283e3096bcfd9dc25429f498cfdf705b34e9ba7512ccf76be8f8",
+      "bytes": 534575
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/print/01_dragon_modoki.gcode.3mf",
+      "sha256": "4023d57502eb8d9b81319c2e0589b7b445a2178124ea8dc1d7dfd612d2ac4b61",
+      "bytes": 597361
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/print/00_all_six.gcode.3mf",
+      "sha256": "447de810bae4c0bddc75513056f615925b7e891b25d9d4add573375cec640c58",
+      "bytes": 2748791
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/print/03_octopus_modoki.gcode.3mf",
+      "sha256": "a343cbc58e1a0ed647aac9387fcf64450cff17fa270f688d3f76bf0c4a8e82b8",
+      "bytes": 638828
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/print/02_armored_modoki.gcode.3mf",
+      "sha256": "f1861d89ee16fa4d71b22df2c926eea375c9fbb108dd3d4d7f5c73b11babe865",
+      "bytes": 405569
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/project/03_octopus_modoki.3mf",
+      "sha256": "570808c73c15e57e1f389fe6cbfdf8a6d96a4398f061e2e91755d10c3b4a4f9b",
+      "bytes": 539240
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/project/05_turtle_modoki.3mf",
+      "sha256": "a31f5f18e73a5540e99e202c6a951cb4b44a90eab438653f786ac16c09c1d5e3",
+      "bytes": 331367
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/project/02_armored_modoki.3mf",
+      "sha256": "408b62b9220834b4e7fd9c433bdafeb68eae96beb7a0c0dbe4fcec20346ef860",
+      "bytes": 344502
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/project/00_all_six.3mf",
+      "sha256": "5d8b9e83122de419550697d070aaeea7909b2d892b7288a998c1dd5e9e643a9b",
+      "bytes": 2312360
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/project/06_axolotl_modoki.3mf",
+      "sha256": "ce6e40e624e7d5b942716c9effad45a5ae2406aa4fd5ab294dbaf41536a8dbc8",
+      "bytes": 451745
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/project/04_slug_modoki.3mf",
+      "sha256": "684bd4db7d681f10b92c5056d6940bc1c830a83c00dbb487a7a3ea07f63f1249",
+      "bytes": 484607
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/project/01_dragon_modoki.3mf",
+      "sha256": "d8de81340df432cbeb080e11412e9a276672d845868804f83620a14d7a7b695e",
+      "bytes": 521402
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/recipes/01_dragon_modoki.json",
+      "sha256": "a028f07411981944d1cdcf86682520e9c3db7a0cac4e37a5af1edc250bd7b64a",
+      "bytes": 6583
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/recipes/06_axolotl_modoki.json",
+      "sha256": "400592eb0d54b1a41748693143de47a291e3dc99e35daebf74b74fa4eca7060d",
+      "bytes": 9979
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/recipes/04_slug_modoki.json",
+      "sha256": "ee3d4786a486a595110ef92044e6e9a768fd2e087b91c945803f302d373ce21d",
+      "bytes": 6558
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/recipes/02_armored_modoki.json",
+      "sha256": "e1964919c35793c15adb0af7faf3f0ebd3009e22f0aabda26e4ebc5981e6b0d9",
+      "bytes": 6576
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/recipes/05_turtle_modoki.json",
+      "sha256": "984712b274f051fa6010c0584c04c694c6215664f38b3f90d98759c598131a21",
+      "bytes": 6205
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/recipes/03_octopus_modoki.json",
+      "sha256": "967b7b0bf0f1c100f9d0f645744335bac14db18877c9240e43915d520698b23b",
+      "bytes": 7828
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/previews/01_dragon_modoki.png",
+      "sha256": "659eea7e1a39ba9c2af3dfea786e7f0aa644d7ba43e296e4aedca7783a426f7c",
+      "bytes": 189052
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/previews/02_armored_modoki.png",
+      "sha256": "48fb86ae859406f76b98a60dcbdb5901f15120841dc1d9901359ac056c4a162e",
+      "bytes": 148044
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/previews/04_slug_modoki.png",
+      "sha256": "613616277c7e0f4ded15ce2c782277fa3bf06f3a36ad18d4bd53c335e6250350",
+      "bytes": 154221
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/previews/06_axolotl_modoki.png",
+      "sha256": "10e469590a9d1b5859712008925cd78a2489908974cdd2fbb284b7562b6969b1",
+      "bytes": 141041
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/previews/05_turtle_modoki.png",
+      "sha256": "0fa6fe83c0613a8217fa802296bbb16a7bd5fff016f37c90ebd6624a1605156f",
+      "bytes": 163792
+    },
+    {
+      "path": "example_prints_fangs_v2_20261107/previews/03_octopus_modoki.png",
+      "sha256": "7179a39afb58911e16a0a243108c3cd4f58490c02fb4cf65c34f4a8448d38a58",
+      "bytes": 171779
+    },
+    {
+      "path": "event_materials_20261107/build_materials.py",
+      "sha256": "dc8bad3394a5478e58f693625a21f33a6c40b02f0db91c0983fabeab25dd8637",
+      "bytes": 6241
+    },
+    {
+      "path": "event_materials_20261107/render_assets.py",
+      "sha256": "422d29d78e61848f8dccc35311fe95a347ecd56c0d3d681d20e00c2786e3a167",
+      "bytes": 542
+    },
+    {
+      "path": "event_materials_20261107/assets/01_dragon_modoki.png",
+      "sha256": "c3d3693f6d9dcf5c5f2e5e8bde7ec2a2c448c41a194056e2fc8876cc2cfa474d",
+      "bytes": 320317
+    },
+    {
+      "path": "event_materials_20261107/assets/Rounded-Regular.ttf",
+      "sha256": "b75708b53e45b06d17d470aeeca5b766e3d1b3999f03f13ec4eb863ca846c14c",
+      "bytes": 3389792
+    },
+    {
+      "path": "event_materials_20261107/assets/Rounded-Bold.ttf",
+      "sha256": "c358630584e8e2d8fbd6121d0f4693255ffef6d1e6d4f3441fd6e5a963a11f9e",
+      "bytes": 3542592
+    },
+    {
+      "path": "event_materials_20261107/assets/Rounded-ExtraBold.ttf",
+      "sha256": "8e7c15901dca87f1451b356dda594f7d092ba252a5dcc47da74523a242493c36",
+      "bytes": 3628512
+    },
+    {
+      "path": "event_materials_20261107/assets/05_turtle_modoki.png",
+      "sha256": "2131846a2042c4cdd9e309d81c3009a5180ab11fabfa951797c4a06a93a7c15e",
+      "bytes": 261981
+    },
+    {
+      "path": "event_materials_20261107/assets/03_octopus_modoki.png",
+      "sha256": "42da92386d1017dad5715526077c0021170d9af60d44e8f955925653cbceb51b",
+      "bytes": 308377
+    },
+    {
+      "path": "event_materials_20261107/output/pdf/へんてこ生物研究所_A3フライヤー.pdf",
+      "sha256": "c78fa70937731e02f46f05b7b9f8cb891b54740f45a35520c61445b1361a1562",
+      "bytes": 1027691
+    },
+    {
+      "path": "event_materials_20261107/output/pdf/へんてこ生物研究所_A4体験説明書.pdf",
+      "sha256": "8599f2464fd29c86d3918d7f0270004eb67d1eff72ea80c2032a0a24ed615178",
+      "bytes": 905668
+    }
+  ]
+}

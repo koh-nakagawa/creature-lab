@@ -1,0 +1,7 @@
+# Observed working CAD environment: Python 3.12.14 (macOS).
+numpy==2.5.1
+trimesh==4.12.2
+manifold3d==3.5.2
+shapely==2.1.2
+scipy==1.18.0
+Pillow==12.3.0

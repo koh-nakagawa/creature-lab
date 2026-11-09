@@ -1,0 +1,438 @@
+{
+  "title": "へんてこ生物研究所",
+  "version": 1,
+  "groups": [
+    {
+      "key": "body",
+      "label": "からだ",
+      "default": "dragon",
+      "options": [
+        {
+          "id": "dragon",
+          "label": "ドラゴンもどき",
+          "hint": ""
+        },
+        {
+          "id": "armored",
+          "label": "ダンゴムシもどき",
+          "hint": ""
+        },
+        {
+          "id": "octopus",
+          "label": "タコもどき",
+          "hint": ""
+        },
+        {
+          "id": "slug",
+          "label": "ナメクジもどき",
+          "hint": ""
+        },
+        {
+          "id": "turtle",
+          "label": "カメもどき",
+          "hint": ""
+        },
+        {
+          "id": "axolotl",
+          "label": "ウーパールーパーもどき",
+          "hint": ""
+        }
+      ]
+    },
+    {
+      "key": "head",
+      "label": "あたま",
+      "default": "horns",
+      "options": [
+        {
+          "id": "round",
+          "label": "まるがお",
+          "hint": ""
+        },
+        {
+          "id": "wide",
+          "label": "よこなが",
+          "hint": ""
+        },
+        {
+          "id": "long",
+          "label": "ながいかお",
+          "hint": ""
+        },
+        {
+          "id": "flat",
+          "label": "ぺたんこ",
+          "hint": ""
+        },
+        {
+          "id": "ears",
+          "label": "みみつき",
+          "hint": ""
+        },
+        {
+          "id": "horns",
+          "label": "つのつき",
+          "hint": ""
+        }
+      ]
+    },
+    {
+      "key": "limbs",
+      "label": "あし・うで",
+      "default": "paws",
+      "options": [
+        {
+          "id": "paws",
+          "label": "4ほんあし",
+          "hint": ""
+        },
+        {
+          "id": "six",
+          "label": "6ぽんあし",
+          "hint": ""
+        },
+        {
+          "id": "eight",
+          "label": "8ぽんあし",
+          "hint": ""
+        },
+        {
+          "id": "flippers",
+          "label": "ひれ",
+          "hint": ""
+        },
+        {
+          "id": "tentacles",
+          "label": "まきうで",
+          "hint": ""
+        },
+        {
+          "id": "none",
+          "label": "あしなし",
+          "hint": ""
+        }
+      ]
+    },
+    {
+      "key": "back",
+      "label": "せなか",
+      "default": "spines",
+      "options": [
+        {
+          "id": "spines",
+          "label": "とげ",
+          "hint": ""
+        },
+        {
+          "id": "plates",
+          "label": "せびれ",
+          "hint": ""
+        },
+        {
+          "id": "gills",
+          "label": "えら",
+          "hint": ""
+        },
+        {
+          "id": "bumps",
+          "label": "こぶ",
+          "hint": ""
+        },
+        {
+          "id": "shell",
+          "label": "こうら",
+          "hint": ""
+        },
+        {
+          "id": "smooth",
+          "label": "つるつる",
+          "hint": ""
+        }
+      ]
+    },
+    {
+      "key": "tail",
+      "label": "しっぽ",
+      "default": "long",
+      "options": [
+        {
+          "id": "long",
+          "label": "ながい",
+          "hint": ""
+        },
+        {
+          "id": "curl",
+          "label": "くるん",
+          "hint": ""
+        },
+        {
+          "id": "fork",
+          "label": "ふたまた",
+          "hint": ""
+        },
+        {
+          "id": "fan",
+          "label": "おうぎ",
+          "hint": ""
+        },
+        {
+          "id": "club",
+          "label": "こんぼう",
+          "hint": ""
+        },
+        {
+          "id": "none",
+          "label": "しっぽなし",
+          "hint": ""
+        }
+      ]
+    },
+    {
+      "key": "texture",
+      "label": "もよう",
+      "default": "scales",
+      "options": [
+        {
+          "id": "plain",
+          "label": "なめらか",
+          "hint": ""
+        },
+        {
+          "id": "dots",
+          "label": "つぶつぶ",
+          "hint": ""
+        },
+        {
+          "id": "stripes",
+          "label": "しましま",
+          "hint": ""
+        },
+        {
+          "id": "scales",
+          "label": "うろこ",
+          "hint": ""
+        },
+        {
+          "id": "ridges",
+          "label": "すじ",
+          "hint": ""
+        }
+      ]
+    },
+    {
+      "key": "eyes",
+      "label": "め",
+      "default": "two",
+      "options": [
+        {
+          "id": "one",
+          "label": "1つめ",
+          "hint": ""
+        },
+        {
+          "id": "two",
+          "label": "2つめ",
+          "hint": ""
+        },
+        {
+          "id": "three",
+          "label": "3つめ",
+          "hint": ""
+        }
+      ]
+    },
+    {
+      "key": "expression",
+      "label": "ひょうじょう",
+      "default": "smile",
+      "options": [
+        {
+          "id": "smile",
+          "label": "にっこり",
+          "hint": ""
+        },
+        {
+          "id": "surprise",
+          "label": "びっくり",
+          "hint": ""
+        },
+        {
+          "id": "flat",
+          "label": "まじめ",
+          "hint": ""
+        },
+        {
+          "id": "fangs",
+          "label": "きば",
+          "hint": ""
+        }
+      ]
+    }
+  ],
+  "parameters": [
+    {
+      "key": "size",
+      "label": "おおきさ",
+      "min": 25,
+      "max": 40,
+      "step": 1,
+      "default": 34,
+      "unit": "mm"
+    },
+    {
+      "key": "roundness",
+      "label": "ふっくら",
+      "min": 0.8,
+      "max": 1.2,
+      "step": 0.05,
+      "default": 1,
+      "unit": ""
+    },
+    {
+      "key": "tail_length",
+      "label": "しっぽのながさ",
+      "min": 0.6,
+      "max": 1.4,
+      "step": 0.1,
+      "default": 1,
+      "unit": ""
+    },
+    {
+      "key": "eye_size",
+      "label": "めのおおきさ",
+      "min": 0.8,
+      "max": 1.15,
+      "step": 0.05,
+      "default": 1,
+      "unit": ""
+    }
+  ],
+  "default_config": {
+    "body": "dragon",
+    "head": "horns",
+    "limbs": "paws",
+    "back": "spines",
+    "tail": "long",
+    "texture": "scales",
+    "eyes": "two",
+    "expression": "smile",
+    "size": 34,
+    "roundness": 1,
+    "tail_length": 1,
+    "eye_size": 1
+  },
+  "presets": [
+    {
+      "id": "dragon",
+      "label": "ドラゴンもどき",
+      "config": {
+        "body": "dragon",
+        "head": "horns",
+        "limbs": "paws",
+        "back": "spines",
+        "tail": "long",
+        "texture": "scales",
+        "eyes": "two",
+        "expression": "smile",
+        "size": 34,
+        "roundness": 1,
+        "tail_length": 1,
+        "eye_size": 1
+      }
+    },
+    {
+      "id": "armored",
+      "label": "ダンゴムシもどき",
+      "config": {
+        "body": "armored",
+        "head": "round",
+        "limbs": "eight",
+        "back": "shell",
+        "tail": "fork",
+        "texture": "dots",
+        "eyes": "two",
+        "expression": "smile",
+        "size": 34,
+        "roundness": 1,
+        "tail_length": 1,
+        "eye_size": 1
+      }
+    },
+    {
+      "id": "octopus",
+      "label": "タコもどき",
+      "config": {
+        "body": "octopus",
+        "head": "wide",
+        "limbs": "tentacles",
+        "back": "bumps",
+        "tail": "none",
+        "texture": "plain",
+        "eyes": "two",
+        "expression": "smile",
+        "size": 30,
+        "roundness": 1,
+        "tail_length": 1,
+        "eye_size": 1
+      }
+    },
+    {
+      "id": "slug",
+      "label": "ナメクジもどき",
+      "config": {
+        "body": "slug",
+        "head": "horns",
+        "limbs": "none",
+        "back": "gills",
+        "tail": "curl",
+        "texture": "scales",
+        "eyes": "three",
+        "expression": "surprise",
+        "size": 34,
+        "roundness": 1,
+        "tail_length": 1,
+        "eye_size": 1
+      }
+    },
+    {
+      "id": "turtle",
+      "label": "カメもどき",
+      "config": {
+        "body": "turtle",
+        "head": "long",
+        "limbs": "flippers",
+        "back": "shell",
+        "tail": "club",
+        "texture": "stripes",
+        "eyes": "one",
+        "expression": "smile",
+        "size": 34,
+        "roundness": 1,
+        "tail_length": 1,
+        "eye_size": 1
+      }
+    },
+    {
+      "id": "axolotl",
+      "label": "ウーパールーパーもどき",
+      "config": {
+        "body": "axolotl",
+        "head": "ears",
+        "limbs": "six",
+        "back": "plates",
+        "tail": "fan",
+        "texture": "ridges",
+        "eyes": "two",
+        "expression": "fangs",
+        "size": 34,
+        "roundness": 1,
+        "tail_length": 1,
+        "eye_size": 1
+      }
+    }
+  ],
+  "notes": [
+    "1体ずつ、実際の形状を生成します。",
+    "印刷時間はスライスして確認します。"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source": "https://registry.npmjs.org/three/-/three-0.180.0.tgz",
+  "archive_bytes": 7750248,
+  "archive_sha256": "ad66d724565ee29a2467277fa84daa5ed0211d6b8d446e9ef29f6bae0cd14144",
+  "files": [
+    "build/three.module.js",
+    "build/three.core.js",
+    "examples/jsm/controls/OrbitControls.js",
+    "examples/jsm/loaders/STLLoader.js",
+    "LICENSE"
+  ]
+}

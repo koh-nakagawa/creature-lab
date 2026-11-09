@@ -1,0 +1,22 @@
+# Runtime data may include participant names, pairing sessions and printer settings.
+runtime/
+backups/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+*.bak*
+*.zip
+*.app/
+*接続情報*
+credentials*
+secrets*
+example_prints_20261107/
+example_prints_fangs_v2_20261107/_work/
+requested_*/
+result.json
+event_materials_20261107/tmp/

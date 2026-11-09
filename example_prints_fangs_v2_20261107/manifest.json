@@ -1,0 +1,472 @@
+{
+  "date": "2026-11-07",
+  "printer": "Bambu Lab A1 mini",
+  "nozzle_mm": 0.6,
+  "layer_height_mm": 0.3,
+  "speed_percent": 100,
+  "material": "PLA Basic",
+  "bed": "Textured PEI Plate",
+  "support": false,
+  "physical_print_verified": false,
+  "examples": [
+    {
+      "number": 1,
+      "name": "ドラゴンもどき",
+      "config": {
+        "body": "dragon",
+        "head": "horns",
+        "limbs": "paws",
+        "back": "spines",
+        "tail": "long",
+        "texture": "scales",
+        "eyes": "two",
+        "expression": "smile",
+        "size": 32,
+        "roundness": 1.0,
+        "tail_length": 1.1,
+        "eye_size": 0.95
+      },
+      "geometry": {
+        "dimensions_mm": [
+          28.43949317932129,
+          32.000000953674316,
+          8.012003898620605
+        ],
+        "volume_mm3": 1270.1575836515435,
+        "faces": 35716,
+        "watertight": true,
+        "connected_components": 1,
+        "estimated_solid_grams": 1.600398555400945,
+        "sha256": "4591655fd2f2e26b9e77107bb6be2aa678118858be81a90ae366296f6ba3133d",
+        "generation_seconds": 1.053,
+        "cleanup": {
+          "mode": "kernel_precision_simplification",
+          "tolerance_mm": 1e-05,
+          "volume_delta_mm3": 2.038218553934712e-07
+        },
+        "roundtrip_cleanup": {
+          "mode": "preserve_manifold_topology",
+          "volume_delta_mm3": 0.0,
+          "zero_area_faces": 0
+        }
+      },
+      "model_seconds": 218,
+      "total_seconds": 575,
+      "grams": 1.274641990661621,
+      "warnings": "",
+      "size_trials": [
+        {
+          "size": 32,
+          "model_seconds": 218,
+          "total_seconds": 575
+        }
+      ],
+      "parts": {
+        "body": "ドラゴンもどき",
+        "head": "つのつき",
+        "limbs": "4ほんあし",
+        "tail": "ながい",
+        "eyes": "2つめ",
+        "expression": "にっこり"
+      },
+      "stl": "stl/01_dragon_modoki.stl",
+      "project": "project/01_dragon_modoki.3mf",
+      "print": "print/01_dragon_modoki.gcode.3mf",
+      "recipe": "recipes/01_dragon_modoki.json",
+      "preview": "previews/01_dragon_modoki.png"
+    },
+    {
+      "number": 2,
+      "name": "ダンゴムシもどき",
+      "config": {
+        "body": "armored",
+        "head": "round",
+        "limbs": "six",
+        "back": "shell",
+        "tail": "club",
+        "texture": "dots",
+        "eyes": "two",
+        "expression": "flat",
+        "size": 32,
+        "roundness": 1.0,
+        "tail_length": 0.9,
+        "eye_size": 0.95
+      },
+      "geometry": {
+        "dimensions_mm": [
+          23.097631454467773,
+          32.000000953674316,
+          7.669627666473389
+        ],
+        "volume_mm3": 1436.0967137891687,
+        "faces": 21834,
+        "watertight": true,
+        "connected_components": 1,
+        "estimated_solid_grams": 1.8094818593743527,
+        "sha256": "a91efbb88d42de3aa286f4104f84404556d6ef50a29a665f80956aa9eac4d4fe",
+        "generation_seconds": 0.619,
+        "cleanup": {
+          "mode": "kernel_precision_simplification",
+          "tolerance_mm": 1e-05,
+          "volume_delta_mm3": -4.702628757513594e-07
+        },
+        "roundtrip_cleanup": {
+          "mode": "preserve_manifold_topology",
+          "volume_delta_mm3": 0.0,
+          "zero_area_faces": 0
+        }
+      },
+      "model_seconds": 231,
+      "total_seconds": 588,
+      "grams": 1.4846458435058594,
+      "warnings": "",
+      "size_trials": [
+        {
+          "size": 32,
+          "model_seconds": 231,
+          "total_seconds": 588
+        }
+      ],
+      "parts": {
+        "body": "ダンゴムシもどき",
+        "head": "まるがお",
+        "limbs": "6ぽんあし",
+        "tail": "こんぼう",
+        "eyes": "2つめ",
+        "expression": "まじめ"
+      },
+      "stl": "stl/02_armored_modoki.stl",
+      "project": "project/02_armored_modoki.3mf",
+      "print": "print/02_armored_modoki.gcode.3mf",
+      "recipe": "recipes/02_armored_modoki.json",
+      "preview": "previews/02_armored_modoki.png"
+    },
+    {
+      "number": 3,
+      "name": "タコもどき",
+      "config": {
+        "body": "octopus",
+        "head": "wide",
+        "limbs": "tentacles",
+        "back": "bumps",
+        "tail": "none",
+        "texture": "plain",
+        "eyes": "three",
+        "expression": "surprise",
+        "size": 29,
+        "roundness": 1.0,
+        "tail_length": 1.0,
+        "eye_size": 0.85
+      },
+      "geometry": {
+        "dimensions_mm": [
+          28.783788681030273,
+          29.000000953674316,
+          8.365168571472168
+        ],
+        "volume_mm3": 2039.1181506152761,
+        "faces": 35676,
+        "watertight": true,
+        "connected_components": 1,
+        "estimated_solid_grams": 2.569288869775248,
+        "sha256": "16fad90e569be4170828ec92f42cde60acee85cb05e0e69d7c9b33725c465830",
+        "generation_seconds": 1.062,
+        "cleanup": {
+          "mode": "kernel_precision_simplification",
+          "tolerance_mm": 1e-05,
+          "volume_delta_mm3": 2.3007282834441867e-07
+        },
+        "roundtrip_cleanup": {
+          "mode": "preserve_manifold_topology",
+          "volume_delta_mm3": 0.0,
+          "zero_area_faces": 0
+        }
+      },
+      "model_seconds": 270,
+      "total_seconds": 627,
+      "grams": 1.6467560529708862,
+      "warnings": "",
+      "size_trials": [
+        {
+          "size": 32,
+          "model_seconds": 313,
+          "total_seconds": 670
+        },
+        {
+          "size": 29,
+          "model_seconds": 270,
+          "total_seconds": 627
+        }
+      ],
+      "parts": {
+        "body": "タコもどき",
+        "head": "よこなが",
+        "limbs": "まきうで",
+        "tail": "しっぽなし",
+        "eyes": "3つめ",
+        "expression": "びっくり"
+      },
+      "stl": "stl/03_octopus_modoki.stl",
+      "project": "project/03_octopus_modoki.3mf",
+      "print": "print/03_octopus_modoki.gcode.3mf",
+      "recipe": "recipes/03_octopus_modoki.json",
+      "preview": "previews/03_octopus_modoki.png"
+    },
+    {
+      "number": 4,
+      "name": "ナメクジもどき",
+      "config": {
+        "body": "slug",
+        "head": "horns",
+        "limbs": "none",
+        "back": "gills",
+        "tail": "curl",
+        "texture": "scales",
+        "eyes": "two",
+        "expression": "smile",
+        "size": 32,
+        "roundness": 0.95,
+        "tail_length": 1.0,
+        "eye_size": 0.95
+      },
+      "geometry": {
+        "dimensions_mm": [
+          28.55498695373535,
+          32.0,
+          8.419763565063477
+        ],
+        "volume_mm3": 1991.2048466762542,
+        "faces": 32830,
+        "watertight": true,
+        "connected_components": 1,
+        "estimated_solid_grams": 2.5089181068120805,
+        "sha256": "466298d4c6ee42bdfc3533720ed30e5bd18126ba3487069cf2443deef8971a78",
+        "generation_seconds": 0.745,
+        "cleanup": {
+          "mode": "kernel_precision_simplification",
+          "tolerance_mm": 1e-05,
+          "volume_delta_mm3": -6.195327841851395e-07
+        },
+        "roundtrip_cleanup": {
+          "mode": "preserve_manifold_topology",
+          "volume_delta_mm3": 0.0,
+          "zero_area_faces": 0
+        }
+      },
+      "model_seconds": 258,
+      "total_seconds": 614,
+      "grams": 1.637555480003357,
+      "warnings": "",
+      "size_trials": [
+        {
+          "size": 32,
+          "model_seconds": 258,
+          "total_seconds": 614
+        }
+      ],
+      "parts": {
+        "body": "ナメクジもどき",
+        "head": "つのつき",
+        "limbs": "あしなし",
+        "tail": "くるん",
+        "eyes": "2つめ",
+        "expression": "にっこり"
+      },
+      "stl": "stl/04_slug_modoki.stl",
+      "project": "project/04_slug_modoki.3mf",
+      "print": "print/04_slug_modoki.gcode.3mf",
+      "recipe": "recipes/04_slug_modoki.json",
+      "preview": "previews/04_slug_modoki.png"
+    },
+    {
+      "number": 5,
+      "name": "カメもどき",
+      "config": {
+        "body": "turtle",
+        "head": "ears",
+        "limbs": "flippers",
+        "back": "shell",
+        "tail": "fan",
+        "texture": "stripes",
+        "eyes": "one",
+        "expression": "smile",
+        "size": 32,
+        "roundness": 1.05,
+        "tail_length": 0.8,
+        "eye_size": 1.0
+      },
+      "geometry": {
+        "dimensions_mm": [
+          31.112852096557617,
+          32.0,
+          8.395401000976562
+        ],
+        "volume_mm3": 2012.7036096716868,
+        "faces": 20880,
+        "watertight": true,
+        "connected_components": 1,
+        "estimated_solid_grams": 2.5360065481863256,
+        "sha256": "bd144e956165756d2176cd377c2e52baa8d519fbb131560694e007c988056eda",
+        "generation_seconds": 0.515,
+        "cleanup": {
+          "mode": "kernel_precision_simplification",
+          "tolerance_mm": 1e-05,
+          "volume_delta_mm3": 1.5920770692900987e-06
+        },
+        "roundtrip_cleanup": {
+          "mode": "preserve_manifold_topology",
+          "volume_delta_mm3": 0.0,
+          "zero_area_faces": 0
+        }
+      },
+      "model_seconds": 270,
+      "total_seconds": 627,
+      "grams": 1.8985270261764526,
+      "warnings": "",
+      "size_trials": [
+        {
+          "size": 32,
+          "model_seconds": 270,
+          "total_seconds": 627
+        }
+      ],
+      "parts": {
+        "body": "カメもどき",
+        "head": "みみつき",
+        "limbs": "ひれ",
+        "tail": "おうぎ",
+        "eyes": "1つめ",
+        "expression": "にっこり"
+      },
+      "stl": "stl/05_turtle_modoki.stl",
+      "project": "project/05_turtle_modoki.3mf",
+      "print": "print/05_turtle_modoki.gcode.3mf",
+      "recipe": "recipes/05_turtle_modoki.json",
+      "preview": "previews/05_turtle_modoki.png"
+    },
+    {
+      "number": 6,
+      "name": "ウーパールーパーもどき",
+      "config": {
+        "body": "axolotl",
+        "head": "wide",
+        "limbs": "paws",
+        "back": "plates",
+        "tail": "fork",
+        "texture": "ridges",
+        "eyes": "three",
+        "expression": "fangs",
+        "size": 32,
+        "roundness": 0.95,
+        "tail_length": 0.9,
+        "eye_size": 0.85
+      },
+      "geometry": {
+        "dimensions_mm": [
+          22.082141876220703,
+          32.000000953674316,
+          8.745041847229004
+        ],
+        "volume_mm3": 1721.081892289492,
+        "faces": 29622,
+        "watertight": true,
+        "connected_components": 1,
+        "estimated_solid_grams": 2.16856318428476,
+        "sha256": "8ff949e9aa9e960aac0451505740bae5f9aa3ed402067be7526013930cfe0c84",
+        "generation_seconds": 0.911,
+        "cleanup": {
+          "mode": "kernel_precision_simplification",
+          "tolerance_mm": 1e-05,
+          "volume_delta_mm3": -1.6647845768602565e-08
+        },
+        "roundtrip_cleanup": {
+          "mode": "preserve_manifold_topology",
+          "volume_delta_mm3": 0.0,
+          "zero_area_faces": 0
+        }
+      },
+      "model_seconds": 238,
+      "total_seconds": 595,
+      "grams": 1.4600332975387573,
+      "warnings": "",
+      "size_trials": [
+        {
+          "size": 32,
+          "model_seconds": 238,
+          "total_seconds": 595
+        }
+      ],
+      "parts": {
+        "body": "ウーパールーパーもどき",
+        "head": "よこなが",
+        "limbs": "4ほんあし",
+        "tail": "ふたまた",
+        "eyes": "3つめ",
+        "expression": "きば"
+      },
+      "stl": "stl/06_axolotl_modoki.stl",
+      "project": "project/06_axolotl_modoki.3mf",
+      "print": "print/06_axolotl_modoki.gcode.3mf",
+      "recipe": "recipes/06_axolotl_modoki.json",
+      "preview": "previews/06_axolotl_modoki.png"
+    }
+  ],
+  "batch": {
+    "stl": "stl/00_all_six.stl",
+    "project": "project/00_all_six.3mf",
+    "print": "print/00_all_six.gcode.3mf",
+    "model_seconds": 1026,
+    "total_seconds": 1384,
+    "grams": 9.036985397338867,
+    "body_count": 6,
+    "bounds_mm": [
+      [
+        33.72250939999999,
+        49.0,
+        0.0
+      ],
+      [
+        146.3918934,
+        131.0,
+        8.74504184
+      ]
+    ],
+    "warnings": "",
+    "gcode_entry": "Metadata/plate_1.gcode"
+  },
+  "checksums": {
+    "stl/01_dragon_modoki.stl": "4591655fd2f2e26b9e77107bb6be2aa678118858be81a90ae366296f6ba3133d",
+    "stl/02_armored_modoki.stl": "a91efbb88d42de3aa286f4104f84404556d6ef50a29a665f80956aa9eac4d4fe",
+    "stl/04_slug_modoki.stl": "466298d4c6ee42bdfc3533720ed30e5bd18126ba3487069cf2443deef8971a78",
+    "stl/00_all_six.stl": "a886242ab110a7ee5c0b3bdfe136d594752de65a71e68dc7199db2208b75e949",
+    "stl/06_axolotl_modoki.stl": "8ff949e9aa9e960aac0451505740bae5f9aa3ed402067be7526013930cfe0c84",
+    "stl/05_turtle_modoki.stl": "bd144e956165756d2176cd377c2e52baa8d519fbb131560694e007c988056eda",
+    "stl/03_octopus_modoki.stl": "16fad90e569be4170828ec92f42cde60acee85cb05e0e69d7c9b33725c465830",
+    "print/05_turtle_modoki.gcode.3mf": "1c5d72d74754c85f00092fb5b91f0fd3463b3d4f6b0ec1fc29591194f5fe046e",
+    "print/04_slug_modoki.gcode.3mf": "aeb0f256b45da7f2bd1e9e2f5087b8bb641c7299b1aac919c6d1f5707e83063e",
+    "print/06_axolotl_modoki.gcode.3mf": "ec2ebfcbbea7283e3096bcfd9dc25429f498cfdf705b34e9ba7512ccf76be8f8",
+    "print/01_dragon_modoki.gcode.3mf": "4023d57502eb8d9b81319c2e0589b7b445a2178124ea8dc1d7dfd612d2ac4b61",
+    "print/00_all_six.gcode.3mf": "447de810bae4c0bddc75513056f615925b7e891b25d9d4add573375cec640c58",
+    "print/03_octopus_modoki.gcode.3mf": "a343cbc58e1a0ed647aac9387fcf64450cff17fa270f688d3f76bf0c4a8e82b8",
+    "print/02_armored_modoki.gcode.3mf": "f1861d89ee16fa4d71b22df2c926eea375c9fbb108dd3d4d7f5c73b11babe865",
+    "project/03_octopus_modoki.3mf": "570808c73c15e57e1f389fe6cbfdf8a6d96a4398f061e2e91755d10c3b4a4f9b",
+    "project/05_turtle_modoki.3mf": "a31f5f18e73a5540e99e202c6a951cb4b44a90eab438653f786ac16c09c1d5e3",
+    "project/02_armored_modoki.3mf": "408b62b9220834b4e7fd9c433bdafeb68eae96beb7a0c0dbe4fcec20346ef860",
+    "project/00_all_six.3mf": "5d8b9e83122de419550697d070aaeea7909b2d892b7288a998c1dd5e9e643a9b",
+    "project/06_axolotl_modoki.3mf": "ce6e40e624e7d5b942716c9effad45a5ae2406aa4fd5ab294dbaf41536a8dbc8",
+    "project/04_slug_modoki.3mf": "684bd4db7d681f10b92c5056d6940bc1c830a83c00dbb487a7a3ea07f63f1249",
+    "project/01_dragon_modoki.3mf": "d8de81340df432cbeb080e11412e9a276672d845868804f83620a14d7a7b695e",
+    "recipes/01_dragon_modoki.json": "a028f07411981944d1cdcf86682520e9c3db7a0cac4e37a5af1edc250bd7b64a",
+    "recipes/06_axolotl_modoki.json": "400592eb0d54b1a41748693143de47a291e3dc99e35daebf74b74fa4eca7060d",
+    "recipes/04_slug_modoki.json": "ee3d4786a486a595110ef92044e6e9a768fd2e087b91c945803f302d373ce21d",
+    "recipes/02_armored_modoki.json": "e1964919c35793c15adb0af7faf3f0ebd3009e22f0aabda26e4ebc5981e6b0d9",
+    "recipes/05_turtle_modoki.json": "984712b274f051fa6010c0584c04c694c6215664f38b3f90d98759c598131a21",
+    "recipes/03_octopus_modoki.json": "967b7b0bf0f1c100f9d0f645744335bac14db18877c9240e43915d520698b23b",
+    "previews/01_dragon_modoki.png": "659eea7e1a39ba9c2af3dfea786e7f0aa644d7ba43e296e4aedca7783a426f7c",
+    "previews/02_armored_modoki.png": "48fb86ae859406f76b98a60dcbdb5901f15120841dc1d9901359ac056c4a162e",
+    "previews/04_slug_modoki.png": "613616277c7e0f4ded15ce2c782277fa3bf06f3a36ad18d4bd53c335e6250350",
+    "previews/06_axolotl_modoki.png": "10e469590a9d1b5859712008925cd78a2489908974cdd2fbb284b7562b6969b1",
+    "previews/05_turtle_modoki.png": "0fa6fe83c0613a8217fa802296bbb16a7bd5fff016f37c90ebd6624a1605156f",
+    "previews/03_octopus_modoki.png": "7179a39afb58911e16a0a243108c3cd4f58490c02fb4cf65c34f4a8448d38a58"
+  }
+}

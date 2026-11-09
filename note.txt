@@ -1,0 +1,9 @@
+2026-11-09 JST GitHub公開用export。
+Source: local Creature Lab working app; destination: new independent publication checkout (new independent copy; originals untouched).
+Tools: Python exclusive copy + SHA256 manifest; git/gh publication.
+Inputs: application Python, frontend + vendored Three.js LICENSE, tests, geometry support/catalog, Bambu baseline settings, latest fangs-v2 exhibit examples, A3/A4 materials and build scripts.
+Excluded: runtime/, logs, participant creations/queue, connection-information file, credentials, backups, old/duplicate examples, compiled launch app.
+Publication changes: remove developer-specific absolute paths and unused sibling geometry search paths; launch with current Python + PATH tmux; Mac app uses project .venv; document dependencies, staff-operated print boundary, current versus historical tests; retain third-party license notices.
+No physical print or printer dispatch performed for publication.
+
+Validation: 30 unit tests passed; 21 mesh regression cases passed; exact requested three-eye/fangs dragon passed; pilot HTTP six-stage flow + actual 0.6 mm standard slice + duplicate queue prevention + SHA256 download equality passed. Pilot used loopback:8766, stopped after validation; no Studio-open or print action. All144 copied source/assets match PUBLICATION_MANIFEST.json. Mac launcher generated and shell syntax checked. Runtime/backup/connection-info/.env ignore rules verified.
